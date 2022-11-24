@@ -2,14 +2,15 @@ import React from "react";
 import "./portfolio.css";
 
 import IMG1 from "../../assets/banner.jpg";
+import IMGdashboard from "../../assets/dashboard-react-mui.PNG";
 
 const data = [
   {
     id: 1,
-    image: IMG1,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://github.com",
+    image: IMGdashboard,
+    title: "Admin Dashboard - React/MUI",
+    github: "https://github.com/Alan-Senderovich/Dashboard-React-mui",
+    demo: "https://dashboard-react-mui.vercel.app/",
   },
   {
     id: 2,

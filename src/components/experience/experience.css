@@ -14,6 +14,7 @@
 
 .experience__backend {
   padding: 2.4rem 2.5rem !important;
+  gap: 2rem;
 }
 
 .experience__container > div:hover {
@@ -37,9 +38,11 @@
   display: flex;
   gap: 1rem;
   align-items: center;
+  justify-content: center;
 }
 
 .experience__details-icon {
+  display: none;
   margin-top: 6px;
   color: var(--color-primary);
 }
@@ -73,6 +76,14 @@
   .experience__container > div {
     width: 100%;
     padding: 2rem 1rem;
+  }
+
+  .experience__backend {
+    padding: 2.4rem 0.5rem !important;
+  }
+
+  .experience__details-icon {
+    display: block;
   }
 
   .experience__details-icon-tech {
