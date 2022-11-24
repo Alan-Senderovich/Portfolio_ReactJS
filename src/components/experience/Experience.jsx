@@ -1,6 +1,17 @@
 import React from "react";
 import "./experience.css";
 import { RiCheckboxFill } from "react-icons/ri";
+import { SiHtml5 } from "react-icons/si";
+import { ImCss3 } from "react-icons/im";
+import { SiJavascript } from "react-icons/si";
+import { SiReact } from "react-icons/si";
+import { SiNextdotjs } from "react-icons/si";
+import { SiMaterialui } from "react-icons/si";
+import { SiChakraui } from "react-icons/si";
+import { GrMysql } from "react-icons/gr";
+import { SiNestjs } from "react-icons/si";
+import { SiNodedotjs } from "react-icons/si";
+import { SiExpressvpn } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -13,53 +24,54 @@ const Experience = () => {
           <h3>Frontend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiHtml5 className="experience__details-icon-tech" />
               <div>
                 <h4>HTML</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <ImCss3 className="experience__details-icon-tech" />
               <div>
                 <h4>CSS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiJavascript className="experience__details-icon-tech" />
               <div>
                 <h4>JavaScript</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiReact className="experience__details-icon-tech" />
               <div>
                 <h4>ReactJS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiNextdotjs className="experience__details-icon-tech" />
               <div>
                 <h4>NextJS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiMaterialui className="experience__details-icon-tech" />
               <div>
                 <h4>Material UI</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+            <SiChakraui className="experience__details-icon-tech" />
               <div>
                 <h4>Chakra UI</h4>
                 <small className="text-align">Experienced</small>
               </div>
+
             </article>
           </div>
         </div>
@@ -69,28 +81,28 @@ const Experience = () => {
           <h3>Backend Development</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiNestjs className="experience__details-icon-tech" />
               <div>
                 <h4>NestJS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiExpressvpn className="experience__details-icon-tech" />
               <div>
                 <h4>Express</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <SiNodedotjs className="experience__details-icon-tech" />
               <div>
                 <h4>NodeJS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
             <article className="experience__details">
-              <RiCheckboxFill className="experience__details-icon" />
+              <GrMysql className="experience__details-icon-tech" />
               <div>
                 <h4>MySQL</h4>
                 <small className="text-align">Experienced</small>

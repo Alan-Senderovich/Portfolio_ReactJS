@@ -4,6 +4,7 @@ import "./contact.css";
 import { MdOutlineMail } from "react-icons/md";
 import { AiFillLinkedin } from "react-icons/ai";
 
+
 const Contact = () => {
   const form = useRef();
 

@@ -12,6 +12,10 @@
   transition: var(--transition);
 }
 
+.experience__backend {
+  padding: 2.4rem 2.5rem !important;
+}
+
 .experience__container > div:hover {
   background: transparent;
   border-color: var(--color-primary-variant);
@@ -32,11 +36,16 @@
 .experience__details {
   display: flex;
   gap: 1rem;
+  align-items: center;
 }
 
 .experience__details-icon {
   margin-top: 6px;
   color: var(--color-primary);
+}
+
+.experience__details-icon-tech {
+  color: var(--color-primary-variant);
 }
 
 /* =============== MEDIA QUERIES (MEDIUM DEVICES) =============== */
@@ -57,13 +66,16 @@
 }
 /* =============== MEDIA QUERIES (SMALL DEVICES) =============== */
 @media screen and (max-width: 600px) {
-    .experience__container {
-        gap: 1rem;
-    }
+  .experience__container {
+    gap: 1rem;
+  }
 
-    .experience__container > div {
-        width: 100%;
-        padding: 2rem 1rem;
-    }
+  .experience__container > div {
+    width: 100%;
+    padding: 2rem 1rem;
+  }
 
+  .experience__details-icon-tech {
+    display: none;
+  }
 }

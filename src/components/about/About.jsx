@@ -19,24 +19,26 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>3+ Years Working</small>
+              <small>2+ Years Working</small>
             </article>
-            <article className="about__card">
+            {/* <article className="about__card">
               <FiUsers className="about__icon" />
               <h5>Clients</h5>
               <small>200+ Worldwide</small>
-            </article>
+            </article> */}
             <article className="about__card">
               <VscFolderOpened className="about__icon" />
               <h5>Projects</h5>
-              <small>80+ Completed</small>
+              <small>20+ Completed</small>
             </article>
           </div>
           <p>
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque
-            minus nesciunt quae dolore. Animi minima necessitatibus in nihil
-            quas possimus, ipsam, enim corrupti magnam praesentium vel eaque
-            impedit explicabo provident!
+            Frontend React developer with 1+ year experience (2+ years developer
+            experience) working with React and Next.js creating responsive user
+            interfaces. Handling backend/data interactions through Nest.js.
+            Currently expanding my knowledge in React Native to acquire solid
+            skills in mobile development. Great ability to work in a team, in
+            constant search for learning and professional development.
           </p>
 
           <a href="#contact" className="btn btn-primary">
