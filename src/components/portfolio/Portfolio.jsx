@@ -20,34 +20,34 @@ const data = [
     github: "https://github.com/Alan-Senderovich/googleClone_nextTailwind",
     demo: "https://google-clone-next-tailwind-bige13b0b-alan-senderovich.vercel.app/",
   },
-  {
-    id: 3,
-    image: IMG1,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 4,
-    image: IMG1,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 5,
-    image: IMG1,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
-  {
-    id: 6,
-    image: IMG1,
-    title: "Crypto Currency Dashboard",
-    github: "https://github.com",
-    demo: "https://github.com",
-  },
+  // {
+  //   id: 3,
+  //   image: IMG1,
+  //   title: "Crypto Currency Dashboard",
+  //   github: "https://github.com",
+  //   demo: "https://github.com",
+  // },
+  // {
+  //   id: 4,
+  //   image: IMG1,
+  //   title: "Crypto Currency Dashboard",
+  //   github: "https://github.com",
+  //   demo: "https://github.com",
+  // },
+  // {
+  //   id: 5,
+  //   image: IMG1,
+  //   title: "Crypto Currency Dashboard",
+  //   github: "https://github.com",
+  //   demo: "https://github.com",
+  // },
+  // {
+  //   id: 6,
+  //   image: IMG1,
+  //   title: "Crypto Currency Dashboard",
+  //   github: "https://github.com",
+  //   demo: "https://github.com",
+  // },
 ];
 
 const Portfolio = () => {
