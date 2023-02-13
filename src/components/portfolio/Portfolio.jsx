@@ -1,9 +1,10 @@
 import React from "react";
 import "./portfolio.css";
 
-import IMG1 from "../../assets/banner.jpg";
+// import IMG1 from "../../assets/banner.jpg";
 import IMGdashboard from "../../assets/dashboard-react-mui.PNG";
 import IMGgoogleClone from "../../assets/google-clone-next-tailwind.PNG";
+import IMGnemplaSite from "../../assets/nempla-site.PNG";
 
 const data = [
   {
@@ -20,13 +21,12 @@ const data = [
     github: "https://github.com/Alan-Senderovich/googleClone_nextTailwind",
     demo: "https://google-clone-next-tailwind-bige13b0b-alan-senderovich.vercel.app/",
   },
-  // {
-  //   id: 3,
-  //   image: IMG1,
-  //   title: "Crypto Currency Dashboard",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
+  {
+    id: 3,
+    image: IMGnemplaSite,
+    title: "WordPress site made with Elementor",
+    demo: "https://nempla.com/",
+  },
   // {
   //   id: 4,
   //   image: IMG1,
