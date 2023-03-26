@@ -5,6 +5,7 @@ import "./portfolio.css";
 import IMGdashboard from "../../assets/dashboard-react-mui.PNG";
 import IMGgoogleClone from "../../assets/google-clone-next-tailwind.PNG";
 import IMGnemplaSite from "../../assets/nempla-site.PNG";
+import IMGfrontendMentor from "../../assets/frontend-mentor-ecommerce.PNG";
 
 const data = [
   {
@@ -27,13 +28,14 @@ const data = [
     title: "WordPress site made with Elementor",
     demo: "https://nempla.com/",
   },
-  // {
-  //   id: 4,
-  //   image: IMG1,
-  //   title: "Crypto Currency Dashboard",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
+  {
+    id: 4,
+    image: IMGfrontendMentor,
+    title: "FrontendMentor Challenge - React & Tailwind",
+    github:
+      "https://github.com/Alan-Senderovich/Challenge-FrontendMentor-ecommerce-main-page",
+    demo: "https://benevolent-bavarois-cad2ab.netlify.app/",
+  },
   // {
   //   id: 5,
   //   image: IMG1,
