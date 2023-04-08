@@ -6,6 +6,7 @@ import IMGdashboard from "../../assets/dashboard-react-mui.PNG";
 import IMGgoogleClone from "../../assets/google-clone-next-tailwind.PNG";
 import IMGnemplaSite from "../../assets/nempla-site.PNG";
 import IMGfrontendMentor from "../../assets/frontend-mentor-ecommerce.PNG";
+import IMGinteractiveComments from "../../assets/interactive-comments.PNG";
 
 const data = [
   {
@@ -36,13 +37,13 @@ const data = [
       "https://github.com/Alan-Senderovich/Challenge-FrontendMentor-ecommerce-main-page",
     demo: "https://benevolent-bavarois-cad2ab.netlify.app/",
   },
-  // {
-  //   id: 5,
-  //   image: IMG1,
-  //   title: "Crypto Currency Dashboard",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
+  {
+    id: 5,
+    image: IMGinteractiveComments,
+    title: "Interactive Comments Page",
+    github: "https://github.com/Alan-Senderovich/Interactive-comments-page",
+    demo: "https://gleeful-mandazi-45aacc.netlify.app/",
+  },
   // {
   //   id: 6,
   //   image: IMG1,
