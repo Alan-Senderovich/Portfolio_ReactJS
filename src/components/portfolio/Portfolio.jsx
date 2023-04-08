@@ -32,7 +32,7 @@ const data = [
   {
     id: 4,
     image: IMGfrontendMentor,
-    title: "FrontendMentor Challenge - React & Tailwind",
+    title: "FrontendMentor Challenge - E-commerce page - React & Tailwind",
     github:
       "https://github.com/Alan-Senderovich/Challenge-FrontendMentor-ecommerce-main-page",
     demo: "https://benevolent-bavarois-cad2ab.netlify.app/",
@@ -40,7 +40,7 @@ const data = [
   {
     id: 5,
     image: IMGinteractiveComments,
-    title: "Interactive Comments Page",
+    title: "FrontendMentor Challenge - Interactive Comments Page - React & Tailwind",
     github: "https://github.com/Alan-Senderovich/Interactive-comments-page",
     demo: "https://gleeful-mandazi-45aacc.netlify.app/",
   },
