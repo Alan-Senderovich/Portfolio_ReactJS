@@ -7,6 +7,7 @@ import IMGgoogleClone from "../../assets/google-clone-next-tailwind.PNG";
 import IMGnemplaSite from "../../assets/nempla-site.PNG";
 import IMGfrontendMentor from "../../assets/frontend-mentor-ecommerce.PNG";
 import IMGinteractiveComments from "../../assets/interactive-comments.PNG";
+import IMGcountries from "../../assets/frontend-mentor-countries.png";
 
 const data = [
   {
@@ -44,13 +45,13 @@ const data = [
     github: "https://github.com/Alan-Senderovich/Interactive-comments-page",
     demo: "https://gleeful-mandazi-45aacc.netlify.app/",
   },
-  // {
-  //   id: 6,
-  //   image: IMG1,
-  //   title: "Crypto Currency Dashboard",
-  //   github: "https://github.com",
-  //   demo: "https://github.com",
-  // },
+  {
+    id: 6,
+    image: IMGcountries,
+    title: "FrontendMentor Challenge - Rest Countries - React & Next & Tailwind & API data fetching",
+    github: "https://github.com/Alan-Senderovich/FrontendMentor-countries-challenge",
+    demo: "https://frontend-mentor-countries-challenge-ashen.vercel.app/",
+  },
 ];
 
 const Portfolio = () => {
