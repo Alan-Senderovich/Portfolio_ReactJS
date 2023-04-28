@@ -33,7 +33,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Frontend React developer with 1+ year experience (2+ years developer
+            Frontend React developer with 2+ year experience (3+ years developer
             experience) working with React and Next.js creating responsive user
             interfaces. Handling backend/data interactions through Nest.js.
             Currently expanding my knowledge in React Native to acquire solid

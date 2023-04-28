@@ -48,7 +48,7 @@ const data = [
   {
     id: 6,
     image: IMGcountries,
-    title: "FrontendMentor Challenge - Rest Countries - React & Next & Tailwind & API data fetching",
+    title: "FrontendMentor Challenge - Rest Countries - React & Next & TypeScript & Tailwind & API data fetching",
     github: "https://github.com/Alan-Senderovich/FrontendMentor-countries-challenge",
     demo: "https://frontend-mentor-countries-challenge-ashen.vercel.app/",
   },
