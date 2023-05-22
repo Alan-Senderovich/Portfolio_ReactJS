@@ -7,11 +7,12 @@ import { SiJavascript } from "react-icons/si";
 import { SiReact } from "react-icons/si";
 import { SiNextdotjs } from "react-icons/si";
 import { SiMaterialui } from "react-icons/si";
-import { SiChakraui } from "react-icons/si";
 import { GrMysql } from "react-icons/gr";
 import { SiNestjs } from "react-icons/si";
 import { SiNodedotjs } from "react-icons/si";
 import { SiExpressvpn } from "react-icons/si";
+import { SiTailwindcss } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -72,10 +73,18 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <SiChakraui className="experience__details-icon-tech" />
+              <SiTypescript className="experience__details-icon-tech" />
               <RiCheckboxFill className="experience__details-icon" />
               <div>
-                <h4>Chakra UI</h4>
+                <h4>Typescript</h4>
+                <small className="text-align">Experienced</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiTailwindcss className="experience__details-icon-tech" />
+              <RiCheckboxFill className="experience__details-icon" />
+              <div>
+                <h4>TailwindCSS</h4>
                 <small className="text-align">Experienced</small>
               </div>
             </article>
