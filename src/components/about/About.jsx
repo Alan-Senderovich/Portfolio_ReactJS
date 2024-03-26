@@ -18,7 +18,7 @@ const About = () => {
             <article className="about__card">
               <FaAward className="about__icon" />
               <h5>Experience</h5>
-              <small>2+ Years Working</small>
+              <small>3+ Years Working</small>
             </article>
             {/* <article className="about__card">
               <FiUsers className="about__icon" />
@@ -32,7 +32,7 @@ const About = () => {
             </article>
           </div>
           <p>
-            Frontend React developer with 2+ year experience (3+ years developer
+            Frontend React developer with 3+ year experience (4+ years developer
             experience) working with React and Next.js creating responsive user
             interfaces. Handling backend/data interactions through Nest.js.
             Currently expanding my knowledge in React Native to acquire solid
